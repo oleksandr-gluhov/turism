@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>turism</title>
+	<meta name="vievport" content="width=device-width">
+	<link rel="stylesheet" href="css/first.css">
+</head>
+<body>
+	<header>
+		<div class="nav content">
+			<p class="logo">
+				<span class="indo">Indo</span> Tourism
+			</p>
+			<div class="link">
+				<a href="" class="">Home</a>
+				<a href="" class="">About us</a>
+				<a href="" class="">Projects</a>
+				<a href="#visited" class="contact">Contact us</a>
+			</div>
+			<div class="open_map" onclick="open_map()">
+				<div class="poperek"></div>
+				<div class="poperek"></div>
+				<div class="poperek"></div>
+			</div>
+			<div class="adapt__map" id="adapt__map">
+				<a href="" class="">Home</a>
+				<a href="" class="">About us</a>
+				<a href="" class="">Projects</a>
+				<a href="#visited" class="">Contact us</a>
+				<button class="close__map" id="close" onclick="colse_map()" >X</button>
+			</div>
+
+		</div>
+	</header>
+	<div class="activities">
+		<p class=" content">
+			I Like To Ask The Same Question <br>
+			<span>Many Many Times</span>
+		</p>
+		<div class="baton content">
+			<a href="" class="ask">
+				Ok ask me
+			</a>
+		</div> 
+	</div>
+	<div id="visited" class="visited content">
+		<div class="places content">
+			<h1>
+				Places You Must Visit In Your Lifetime
+			</h1>
+			<div class="location">
+					<div>
+						<a class="j" target="_blank" href="https://www.google.com/search?q=azheekal&rlz=1C1CHBD_ruUA923UA923&sxsrf=ALeKk03rnribdBzpIIVdiRONuIadmEQffA:1615762854157&source=lnms&tbm=isch&biw=1440&bih=757"><img src="img/azheekal.png" alt=""><br>azheekal</a>
+					</div>
+					<div>
+						<a class="j" href="https://www.google.com/search?q=ooty&tbm=isch&ved=2ahUKEwigvIfb8bDvAhUOsSoKHa0SAqIQ2-cCegQIABAA&oq=ooty&gs_lcp=CgNpbWcQAzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzoHCCMQ6gIQJzoCCAA6BQgAELEDOgQIABAeULziSljs7Epg2_JKaAFwAHgAgAFSiAGzApIBATSYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=rZVOYOCxC47iqgGtpYiQCg&bih=757&biw=1440&rlz=1C1CHBD_ruUA923UA923">
+							<img src="img/ooty.png" alt=""><br>ooty</a>
+					</div>
+					<div>
+						<a class="j" href=""><img src="img/munnar.png" alt=""><br>munnar</a>
+					</div>
+					<div>
+						<a class="j" href=""><img src="img/humpi.png" alt=""><br>humpi</a>
+					</div>
+					<div>
+						<a class="j" href=""><img src="img/kuttanad.png" alt=""><br>kuttanad</a>
+
+					</div>
+					<div>
+							<a class="j" href=""><img src="img/kovalam.png" alt=""><br>kovalam</a>
+
+						</div>
+						<div>
+							<a class="j" href=""><img src="img/thenmala.png" alt=""><br>thenmala</a>
+
+						</div>
+						<div>
+							<a class="j" href=""><img src="img/beach.png" alt=""><br>baech</a>
+
+						</div>
+						<div>
+						<a class="j" href=""><img src="img/munnar2.png" alt=""><br>munnar</a>
+						</div>
+						<div>
+						<a class="j" href=""><img src="img/punaloor.png" alt=""><br>punaloor</a>
+						</div>
+				</div>
+				
+				<div class="gline">
+				
+			</div>	
+			</div>	
+		</div>
+		<div class="befordie content">
+			<p>
+				We’ve since expanded our life list to 43 sites around the world
+			</p>
+			<p class="">
+				<span class="die">43 Places to See Before You Die</span>
+			</p>
+		</div>
+	</div>
+<script>
+	function colse_map(){
+		document.getElementById("adapt__map").style.width = "0px";
+		document.getElementById("close").style.display = "none";
+	}
+	function open_map(){
+		document.getElementById("adapt__map").style.width = "100%";
+		document.getElementById("close").style.display = "block";
+
+	}
+</script>
+</body>
+</html>
